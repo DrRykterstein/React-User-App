@@ -9,6 +9,8 @@ const User = ({ user, filterUser }) => {
     "twitterUsername"
   ]);
 
+  const url = `https://twitter.com/@${filteredUser.twitterUsername}`;
+
   return (
     <React.Fragment>
       {/* render image, name and food data */}
@@ -19,11 +21,9 @@ const User = ({ user, filterUser }) => {
           return (
             <div className="user-item-flex">
               <p className="user-item-header">Twitter</p>
-              <p className={"user-item-text blue"}>
-                <a href={`https://twitter.com/@${filteredUser[key]}`}>
-                  @{filteredUser[key]}
-                </a>
-              </p>
+              <a className="user-item-text blue" href={url}>
+                @{filteredUser[key]}
+              </a>
             </div>
           );
         } else {
