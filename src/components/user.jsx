@@ -19,7 +19,11 @@ const User = ({ user, filterUser }) => {
           return (
             <div className="user-item-flex">
               <p className="user-item-header">Twitter</p>
-              <p className={"user-item-text blue"}>@{filteredUser[key]}</p>
+              <p className={"user-item-text blue"}>
+                <a href={`https://twitter.com/@${filteredUser[key]}`}>
+                  @{filteredUser[key]}
+                </a>
+              </p>
             </div>
           );
         } else {
