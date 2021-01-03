@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 22px;
+  padding: 100px 50px 50px;
+}
+
+.user-deets {
+  text-align: left;
+}
+
+.user-deets img {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.user-deets a {
+  text-decoration: none;
+  color: #40a8f3;
+  transition: 0.3s ease color;
+}
+
+.user-deets a:hover {
+  text-decoration: underline;
+}
+
+.user-deets h3 {
+  font-size: 50px;
+  margin: 0 0 20px;
+}
+
+.user-deets strong {
+  display: block;
+  font-size: 14px;
+  opacity: 0.4;
+  margin-bottom: 6px;
+}
+
+/* user info section */
+.user-item-flex {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.user-item-flex > * {
+  margin: 0.25rem 0;
+}
+
+.user-item-header {
+  font-size: 18px;
+  color: #a6a6a6;
+}
+
+.user-item-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.avatar {
+  border-radius: 15px;
+}
+
+.blue {
+  color: #3fa8ee;
+}
