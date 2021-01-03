@@ -46,20 +46,3 @@ const User = ({ user, filterUser }) => {
 };
 
 export default User;
-
-// if (item === "twitterUsername" || item === "foodType") {
-//   return (
-//     <div className="user-item-flex">
-
-//     </div>
-//   );
-// } else {
-//   return (
-//     <div className="user-item-flex">
-//       <p className="user-item-header">
-//         {item[0].toUpperCase() + item.slice(1, item.length)}
-//       </p>
-//       <p className="user-item-text">{user[item]}</p>
-//     </div>
-//   );
-// }
